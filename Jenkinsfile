@@ -12,9 +12,6 @@ pipeline {
                 '''
             }
         }
-
-
-
         stage('preapare Artifact') {
             steps {
                 sh '''
@@ -22,7 +19,6 @@ pipeline {
                  '''
             }
         }
-
         stage('Upload Artifacts') {
             steps {
                 sh '''
