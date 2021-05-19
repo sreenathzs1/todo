@@ -7,8 +7,8 @@ pipeline {
         stage('Download Dependencies') {
             steps {
                 sh '''
-                npm install 
-                npm run build
+                 npm install 
+                 npm run build
                 '''
             }
         }
