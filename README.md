@@ -45,3 +45,4 @@ Here sometimes App crash, then we kill the nodes by using below commands
 
 
     //tags add
+    //tags all
